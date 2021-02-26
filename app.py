@@ -22,11 +22,12 @@ def predict():
         Amount = float(request.form['Amount'])
         Time   = float(request.form['Time'])
         
-        prediction = model.predict([[Amount,Time]])
+        pred = model.predict([[Amount,Time]])
+        output = pred[0]
         
-        if prediction == 1:
+        if output == 1:
             return render_template('index.html',prediction_text = "It is a fraudulant transaction")
-        elif prediction == 0:
+        elif output == 0:
             return render_template('index.html',prediction_text = "It is not a fraudulant transaction")
         else:
             return render_template('index.html',prediction_text = "Please give a proper input.....")
