@@ -26,8 +26,10 @@ def predict():
         
         if prediction == 1:
             return render_template('index.html',prediction_text = "It is a fraudulant transaction")
-        else:
+        elif prediction == 0:
             return render_template('index.html',prediction_text = "It is not a fraudulant transaction")
+        else:
+            return render_template('index.html',prediction_text = "Please give a proper input.....")
                                    
         
     else:
