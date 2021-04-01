@@ -17,4 +17,4 @@ Dataset link:  https://www.kaggle.com/mlg-ulb/creditcardfraud
 ## Model building:
 
 ## Deployment:
-Model is deployed using the flask framework.
+Model is deployed using the flask web framework.
