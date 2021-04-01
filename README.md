@@ -14,4 +14,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 
 Dataset link:  https://www.kaggle.com/mlg-ulb/creditcardfraud
 
-# Credit-card-fraud-detection
+## Model building:
+
+## Deployment:
+Model is deployed using the flask framework.
