@@ -15,6 +15,6 @@ It contains only numerical input variables which are the result of a PCA transfo
 Dataset link:  https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 ## Model building:
-
+Almost every algorithm is tested for model building and out of all, Random forest classifier is giving the better accuracy of 99.73% with precision of 86.45%
 ## Deployment:
 Model is deployed using the flask web framework.
